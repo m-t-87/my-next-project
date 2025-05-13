@@ -35,7 +35,7 @@ export default function NewsList({ news }: Props) {
                                 width={1200}
                                 height={630}
                             />
-                            )}
+                        )}
                         <dl className={styles.content}>
                             <dt className={styles.title}>{article.title}</dt>
                             <dd className={styles.meta}>
